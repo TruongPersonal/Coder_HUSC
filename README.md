@@ -1,4 +1,4 @@
-# DMOJ 
+# DMOJ Solutions
 This repository contains solutions to the exercises I completed on [Coder HUSC](https://coder.husc.edu.vn). 
 Each solution is not just a result but also a testament to my learning and the experiences I have accumulated in the field of programming. 
 I hope these materials will be helpful for those seeking inspiration or facing challenges in solving similar exercises.
