@@ -15,8 +15,8 @@ def modulus(a, b):
 
 a, b = map(int, input().split())
 
-print(f"{a} + {b} = {add(a, b)}")
-print(f"{a} - {b} = {subtract(a, b)}")
-print(f"{a} * {b} = {multiply(a, b)}")
-print(f"{a} / {b} = {divide(a, b)}")
-print(f"{a} % {b} = {modulus(a, b)}")
+print(f'{a} + {b} = {add(a, b)}')
+print(f'{a} - {b} = {subtract(a, b)}')
+print(f'{a} * {b} = {multiply(a, b)}')
+print(f'{a} / {b} = {divide(a, b)}')
+print(f'{a} % {b} = {modulus(a, b)}')
