@@ -10,12 +10,12 @@ int main()
     int h, s;
     cin >> h >> s;
 
-    string responses[3][3] = {
+    string result[3][3] = {
         {"0", "Hazzu", "Sora"},
         {"Sora", "0", "Hazzu"},
         {"Hazzu", "Sora", "0"}
     };
-    cout << responses[h][s];
+    cout << result[h - 1][s - 1];
 
     return 0;
 }
