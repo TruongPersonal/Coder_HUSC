@@ -1,13 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    #ifndef ONLINE_JUDGE
-    freopen("Input.inp", "r", stdin);
-    freopen("Output.out", "w", stdout);
-    #endif
+int main()
+{
+	#ifndef ONLINE_JUDGE
+		freopen("Input.inp", "r", stdin);
+		freopen("Output.out", "w", stdout);
+	#endif
 
-    int a, b;
+	int a, b;
 	int c;
 	cin >> a >> b >> c;
 	if (c % 2 == 0)
@@ -51,13 +52,13 @@ int main() {
 	}
 	else
 	{
-		if(a==b)
-		cout << "=";
-		else if(a>b)
-		cout << ">";
-		else if(a<b)
-		cout << "<";
+		if (a == b)
+			cout << "=";
+		else if (a > b)
+			cout << ">";
+		else if (a < b)
+			cout << "<";
 	}
 
-    return 0;
+	return 0;
 }

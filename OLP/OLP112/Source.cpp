@@ -14,7 +14,7 @@ void initFibonacci()
     }
 }
 
-void initmutilplyFibonacci()
+void initMutilplyFibonacci()
 {
     int count = 0;
     for (int i = 0; i < 30; i++)
@@ -44,7 +44,7 @@ int main()
     #endif
 
     initFibonacci();
-    initmutilplyFibonacci();
+    initMutilplyFibonacci();
     
     int T;
     cin >> T;

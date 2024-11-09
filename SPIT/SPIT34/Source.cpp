@@ -9,23 +9,23 @@ int main() {
     int n;
     cin >> n;
 
-    int divisorsCount[n + 1];
+    int divisors_count[n + 1];
 
     for (int i = 0; i <= n; i++) {
-        divisorsCount[i] = 0;
+        divisors_count[i] = 0;
     }
 
     for (int i = 1; i <= n; i++) {
         for (int j = i; j <= n; j += i) {
-            divisorsCount[j]++;
+            divisors_count[j]++;
         }
     }
 
-    int maxDivisors = divisorsCount[0];
+    int max_divisors = divisors_count[0];
     int result = 1;
     for (int i = 1; i <= n; i++) {
-        if (divisorsCount[i] >= maxDivisors) {
-            maxDivisors = divisorsCount[i];
+        if (divisors_count[i] >= max_divisors) {
+            max_divisors = divisors_count[i];
             result = i;
         }
     }

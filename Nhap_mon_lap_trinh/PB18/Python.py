@@ -1,6 +1,6 @@
 n, p = map(int, input().split())
-sitsTotal = p * 4
-carriage = n // sitsTotal
-if n % sitsTotal:
+sits_total = p * 4
+carriage = n // sits_total
+if n % sits_total:
     carriage += 1
 print(carriage)

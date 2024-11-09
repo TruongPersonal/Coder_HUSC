@@ -11,27 +11,27 @@ int main()
     
     int S, n, x, y;
     cin >> S >> n >> x >> y;
-    int sumOfArea, workDays;
+    int sum_of_area, work_days;
     if (S / x < n)
     {
-        sumOfArea = S;
-        workDays = (sumOfArea + x - 1) / x;
+        sum_of_area = S;
+        work_days = (sum_of_area + x - 1) / x;
     }
     else
     {
-        workDays = n;
-        sumOfArea = n * x;
+        work_days = n;
+        sum_of_area = n * x;
         S -= n * x;
         int sum = x + y;
         int tempDay = S / sum;
-        sumOfArea += min(S % sum, x) + tempDay * x;
+        sum_of_area += min(S % sum, x) + tempDay * x;
         if (S % sum > 0) {
             ++tempDay;
         }
-        workDays += tempDay;
+        work_days += tempDay;
     }
 
-    cout << sumOfArea << "\n" << workDays;
+    cout << sum_of_area << "\n" << work_days;
 
     return 0;
 }

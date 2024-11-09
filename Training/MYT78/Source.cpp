@@ -11,15 +11,15 @@ int main() {
     cin >> n;
 
     int a[n];
-    int moduloCount[3] = {0};
+    int modulo_count[3] = {0};
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        moduloCount[a[i] % 3]++;
+        modulo_count[a[i] % 3]++;
     }
 
     int count = 0;
-    count += (moduloCount[0] * (moduloCount[0] - 1)) / 2;
-    count += moduloCount[1] * moduloCount[2];
+    count += (modulo_count[0] * (modulo_count[0] - 1)) / 2;
+    count += modulo_count[1] * modulo_count[2];
 
     cout << count;
 

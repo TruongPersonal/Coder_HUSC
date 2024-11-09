@@ -33,16 +33,16 @@ int main() {
     {
         ll n;
         cin >> n;
-        ll ans1 = multiply(multiply(n, add(multiply(n, n), 1)), inv);
+        ll ans_one = multiply(multiply(n, add(multiply(n, n), 1)), inv);
         ll z = subtract(n, 1);
-        ll ans2 = add(multiply(n, n), multiply(multiply(multiply(z, z), n), inv));
-        ll sumoftwodiagonals = add(ans1, ans2);
+        ll ans_two = add(multiply(n, n), multiply(multiply(multiply(z, z), n), inv));
+        ll sum_of_two_diagonals = add(ans_one, ans_two);
         if (n % 2)
         {
             ll mid = add(1, multiply(multiply(z, inv), add(n, 1)));
-            sumoftwodiagonals = subtract(sumoftwodiagonals, mid);
+            sum_of_two_diagonals = subtract(sum_of_two_diagonals, mid);
         }
-        cout << sumoftwodiagonals << "\n";
+        cout << sum_of_two_diagonals << "\n";
     }
 
     return 0;

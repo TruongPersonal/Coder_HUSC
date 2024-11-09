@@ -3,7 +3,7 @@
 #include <cctype>
 using namespace std;
 
-string Pretty(string S)
+string pretty(string S)
 {
     string result = "";
     for (long unsigned int i = 0; i < S.size(); i++)
@@ -34,7 +34,7 @@ int main() {
         if (S.empty())
             break;
 
-        cout << isPalindrome(Pretty(S)) << endl;
+        cout << isPalindrome(pretty(S)) << endl;
     }
 
     return 0;
