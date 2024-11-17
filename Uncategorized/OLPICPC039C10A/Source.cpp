@@ -3,10 +3,11 @@ using namespace std;
 
 int main()
 {
-    #ifndef ONLINE_JUDGE
-    freopen("Input.inp", "r", stdin);
-    freopen("Output.out", "w", stdout);
-    #endif
+    // #ifndef ONLINE_JUDGE
+    // freopen(".build/Input.inp", "r", stdin);
+    // freopen(".build/Output.out", "w", stdout);
+    // #endif
+
     long long N, A, B;
     cin >> N >> A >> B;
     if (A > N / 2 || B > N / 2) {
