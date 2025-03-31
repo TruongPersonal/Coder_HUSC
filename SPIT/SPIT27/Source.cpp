@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    #ifndef ONLINE_JUDGE
-        freopen("Input.inp", "r", stdin);
-        freopen("Output.out", "w", stdout);
-    #endif
+#ifndef ONLINE_JUDGE
+    freopen("Input.inp", "r", stdin);
+    freopen("Output.out", "w", stdout);
+#endif
 
     string S;
     cin >> S;
@@ -34,8 +34,6 @@ int main()
     if (check == true)
     {
         cout << "YES";
-
-        
     }
     else
     {
