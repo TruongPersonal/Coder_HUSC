@@ -5,8 +5,8 @@ using namespace std;
 
 int main() {
     #ifndef ONLINE_JUDGE
-    freopen("Input.inp", "r", stdin);
-    freopen("Output.out", "w", stdout);
+    freopen(".build/Input.inp", "r", stdin);
+    freopen(".build/Output.out", "w", stdout);
     #endif
 
     int A, B, C, k;

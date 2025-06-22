@@ -17,8 +17,8 @@ long long product(long long a, long long b) {
 
 int main() {
     #ifndef ONLINE_JUDGE
-    freopen("Input.inp", "r", stdin);
-    freopen("Output.out", "w", stdout);
+    freopen(".build/Input.inp", "r", stdin);
+    freopen(".build/Output.out", "w", stdout);
     #endif
     
     long long l, r;

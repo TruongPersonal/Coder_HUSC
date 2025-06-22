@@ -23,8 +23,8 @@ string calculateScholarshipRanking(double average_score)
 int main()
 {
     #ifndef ONLINE_JUDGE
-        freopen("Input.inp", "r", stdin);
-        freopen("Output.out", "w", stdout);
+        freopen(".build/Input.inp", "r", stdin);
+        freopen(".build/Output.out", "w", stdout);
     #endif
 
     vector<double> score(4);
